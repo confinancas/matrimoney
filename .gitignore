@@ -1,0 +1,12 @@
+# Segredos locais: nunca no repositório (ele é público)
+.env
+.dev.vars
+
+# Gerados pelo instalador de quem instala o app: a configuração da instalação e o estado local
+wrangler.instalacao.jsonc
+.core-money/
+
+# Dependências, build e estado local do wrangler
+node_modules/
+dist/
+.wrangler/
